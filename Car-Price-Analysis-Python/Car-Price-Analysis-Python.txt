@@ -1,0 +1,67 @@
+# 🚗 Car Price Data Analysis using Python
+
+This project focuses on analyzing car prices using Python by exploring how different features affect the final price of a car.  
+The analysis is based on a real-world dataset containing detailed car specifications.
+
+---
+
+## 📂 Dataset Overview
+
+The dataset contains the following columns:
+
+| Column Name     | Description |
+|-----------------|-------------|
+| carID           | Unique identifier for each car |
+| brand           | Car manufacturer (e.g., Audi, Hyundai, VW) |
+| model           | Specific car model |
+| year            | Year of production |
+| transmission    | Transmission type (Manual, Automatic, Semi-Auto) |
+| mileage         | Distance traveled by the car |
+| fuelType        | Type of fuel used (Petrol, Diesel) |
+| tax             | Annual road tax |
+| mpg             | Miles per gallon (fuel efficiency) |
+| engineSize      | Engine size in liters |
+| price           | Car price |
+
+---
+
+## 🎯 Project Objective
+
+The main goal of this project is to:
+- Analyze car prices based on multiple factors
+- Identify patterns and trends affecting car pricing
+- Compare prices across different years, fuel types, and transmission types
+- Extract meaningful insights using data visualization
+
+---
+
+## 🛠 Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 🔍 Analysis Process
+
+1. Data loading and inspection  
+2. Data cleaning and preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Price comparison by:
+   - Model year
+   - Transmission type
+   - Fuel type
+   - Mileage
+5. Data visualization and insights extraction  
+
+---
+
+## 📊 Sample Data Preview
+
+```python
+cars_data = pd.read_csv('cars.csv')
+cars_data.head()
